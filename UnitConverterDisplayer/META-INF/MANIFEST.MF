@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: UnitConverterDisplayer
+Bundle-SymbolicName: UnitConverterDisplayer
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: unitconverterdisplayer.ConverterDisplayerActivator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: UnitConverterDisplayer,
+Import-Package: currencyconverter,
+ org.osgi.framework;version="1.3.0",
+ org.osgi.util.tracker;version="1.5.2"
+Bundle-ActivationPolicy: lazy
+Export-Package: unitconverterdisplayer
+Require-Bundle: SpeedConverter
